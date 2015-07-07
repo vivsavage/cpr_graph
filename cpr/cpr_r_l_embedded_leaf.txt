@@ -1,0 +1,57 @@
+Inode 1:0181:0869::HEAD (inode 1,0,269729792:512) (block 1,0,269729792:8192)--
+    di_inode_version                  6      di_dir_version                  2
+            di_magic         0x9a8b7c6d            di_nlink                  1
+             di_mode            0100644            di_flags         0x000000e0
+              di_uid                  0              di_gid                  0
+             di_size              61440  di_physical_blocks                 24
+     di_logical_size              65536      di_shadow_refs                  0
+              di_lin        1:0181:0869              di_rev                  2
+       di_parent_lin                  2      di_parent_hash         0x000cae07
+            di_mtime         1417559397        di_mtimensec          790793000
+            di_ctime         1429899298        di_ctimensec          322962702
+      di_create_time         1417559397  di_create_timensec          790793000
+         di_inode_mc                  3        di_upgrading                  0
+         di_data_fmt                  0       di_data_depth                  1
+   di_restripe_state               0x00   di_recovered_flag                  0
+    di_la_ssd_status               0x03  di_la_ssd_strategy               0x00
+       di_la_pattern                  0    di_la_drivecount                  0
+        di_no_dedupe                  0         di_in_cstat                  0
+          di_bad_sin                  0 di_data_pool_target                  7
+di_metadata_pool_target                  7
+        current_prot             0x0889-->              Parity/FEC   4  +2  /2 
+   protection_policy         0x00000000-->  Width  0    Mirroring       x0  /0 
+       di_data_bytes                177       di_attr_bytes                 26
+    lin table snapid               HEAD   di_idi algo/flags    crc32_iscsi/0x0          di_idi val  dd28f63e 06a23a27
+
+LIN Table Flags -- 0x0
+    needs_repair : 0
+    is_minisnap  : 0
+
+Data Section (offsets 134-311)--
+Metatree Embedded Leaf--
+               count                  1              cursor                  1
+            max_prot                  0      max_prot_count                  0
+            reserved               0x00
+   #0 : 0 [ lr=0x7fffffffd694, len=163 prot=4+2/2 crc
+        3,21,28784762880:8192#2
+        3,21,28785090560:8192#1
+        3,21,28785254400:8192#5
+        0,0,0:8192#56
+        1,19,137528999936:8192#8
+        0,0,0:8192#8
+        1,20,136677146624:8192#8
+        0,0,0:8192#8
+        
+ crcs: {f7a56707}, {dc026cdd}, {7d68539b}, {ef74f1da}, {ddcb4172}, {7ff18ba0}, {7c4628c7}, {6fbbb9dc}, {f7a56707}, {dc026cdd}, {7d68539b}, {ef74f1da}, {ddcb4172}, {7ff18ba0}, {7c4628c7}, {6fbbb9dc}, {f7a56707}, {dc026cdd}, {7d68539b}, {ef74f1da}, {ddcb4172}, {7ff18ba0}, {7c4628c7}, {6fbbb9dc} ]
+
+
+Attributes Section (offsets 477-502)--
+  Disk pool policy ID (key 34, record length 5)
+    any pool group ID
+
+  Last snapshot paint time (key 32, record length 9)
+    2009
+
+  v5 Data wdl (key 11, record length 12)
+    (d:  1, mar:00180000
+    (d:  3, mar:00200000

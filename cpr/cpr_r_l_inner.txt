@@ -1,0 +1,48 @@
+Inode 1:016e:03b4::HEAD (inode 1,6,33905664:512) (block 1,6,33898496:8192)--
+    di_inode_version                  6      di_dir_version                  2
+            di_magic         0x9a8b7c6d            di_nlink                  1
+             di_mode            0100644            di_flags         0x000000e0
+              di_uid                  0              di_gid                  0
+             di_size          536870912  di_physical_blocks              98622
+     di_logical_size          536870912      di_shadow_refs                  0
+              di_lin        1:016e:03b4              di_rev                343
+       di_parent_lin                  2      di_parent_hash         0x00006c81
+            di_mtime         1427148936        di_mtimensec          244198972
+            di_ctime         1427148936        di_ctimensec          244198972
+      di_create_time         1427148928  di_create_timensec          353074366
+         di_inode_mc                  3        di_upgrading                  0
+         di_data_fmt                  1       di_data_depth                  2
+   di_restripe_state               0x00   di_recovered_flag                  0
+    di_la_ssd_status               0x03  di_la_ssd_strategy               0x00
+       di_la_pattern                  0    di_la_drivecount                  0
+        di_no_dedupe                  0         di_in_cstat                  0
+          di_bad_sin                  0 di_data_pool_target                  5
+di_metadata_pool_target                  5
+        current_prot             0x0889-->              Parity/FEC   4  +2  /2 
+   protection_policy         0x00000000-->  Width  0    Mirroring       x0  /0 
+       di_data_bytes                 24       di_attr_bytes                 62
+    lin table snapid               HEAD   di_idi algo/flags    crc32_iscsi/0x0          di_idi val  d1ee6379 3f84839a
+
+LIN Table Flags -- 0x0
+    needs_repair : 0
+    is_minisnap  : 0
+
+Data Section (offsets 134-158)--
+{ 1,7,5258854400:8192, 2,7,23986053120:8192, 3,6,7133364224:8192 }
+
+Attributes Section (offsets 441-502)--
+  Disk pool policy ID (key 34, record length 5)
+    any pool group ID
+
+  Last snapshot paint time (key 32, record length 9)
+    1
+
+  v5 Meta wdl (key 19, record length 24)
+    (d:  1, mar:070001c0
+    (d:  2, mar:070001c0
+    (d:  3, mar:070001c0
+
+  v5 Data wdl (key 11, record length 24)
+    (d:  2, mar:070001c0
+    (d:  1, mar:070001c0
+    (d:  3, mar:070001c0
